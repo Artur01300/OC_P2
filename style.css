@@ -119,6 +119,11 @@ body{
 	margin-bottom: 0px;
 }
 
+.main {
+    width: 750px;
+    margin: auto;
+}
+
 .nom{/*artur karapetyan*/
 	margin-left: 20px;
 }
