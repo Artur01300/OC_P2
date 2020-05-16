@@ -82,6 +82,7 @@ p.photo{
 .nom{/*artur karapetyan*/
 	margin-top: 70px;
 }
+
 .artur_color{
 	color: #009688;
 }
@@ -129,12 +130,10 @@ body{
 h2{
 	font-size: 1.2em;
 	margin-top: 85px;
-
 }
 
 .profil{
-	background-color: #00796B;
-	
+	background-color: #0097A7;
 }
 
 .information_perssonnel{
@@ -204,7 +203,7 @@ h2{
 }
 
 .profil{
-	background-color: #009688;
+	background-color: #FFC107;
 }
 
 .information_perssonnel{
