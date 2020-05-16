@@ -3,12 +3,17 @@
 <head>
 	<title>Artur Karapetyan</title>
 	<meta charset="utf-8">
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Cette étape a pour principal avantage d’éviter le redimensionnement automatique de la mise en page, qui rend les contenus trop petits, de fixer la largeur du mobile et de pouvoir s’y adapter par la suite.-->
+	
 	<link rel="stylesheet" type="text/css" href="style.css">
 
 	<!--www.fontawesome.com-->
 	<script src="https://kit.fontawesome.com/cdcdcab35a.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
 	<div class="main">
 		<div class="profil">
 
@@ -136,19 +141,19 @@
 				<h2><i class="fas fa-laptop-code"></i>COMPETENCES</h2><hr>
 				<p>
 					<label for="offic">Pack Office:</label>
-					<progress id="offic" value="60" max="100">60%</progress>
+					<progress id="offic" min="0" value="60" max="100">60%</progress>
 				</p>
 				<p>
 					<label for="photoshop">Photoshop:</label>
-					<progress id="photoshop" value="30" max="100">30%</progress>
+					<progress id="photoshop" min="0" value="30" max="100">30%</progress>
 				</p>
 
 				<p>
 					<label for="recherche">Recherche sur le net:</label>
-					<progress id="recherche" value="90" max="100">90%</progress>
+					<progress id="recherche" min="0" value="90" max="100">90%</progress>
 				</p>
 			</div>
 		</div>	
-	</div>	
 </body>
+
 </html>
