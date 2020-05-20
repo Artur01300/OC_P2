@@ -3,6 +3,19 @@
 body{
 	font-family: arial, serif, normal;
 	background-color: #ECEFF1;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.addresse a{
+	text-align: left;
+	margin-left: 34px;
+	text-decoration: none;
+	color: black;
+}
+
+.addresse p{
+		text-indent: 35px;
 }
 
  .information_perssonnel h1{
@@ -68,7 +81,7 @@ p.photo{
 	width: 50%;
 }
 
-.date{
+.date{/*date d'information_perssonnel*/
 	margin-top: 50px;
 }
 
@@ -94,16 +107,12 @@ p.photo{
 	padding-right: 40px;
 	padding-left: 40px;
 }
-.localisation{/*localisation Lyon*/
+.localisation{/*localisation Lyon du information perssonnel*/
 	margin-left: 15px;
 }
 
-.information_perssonnel .fas{/*localisation Lyon*/
+.information_perssonnel .fas{/*localisation Lyon du information perssonnel*/
 	color: #009688;
-}
-
-.sec_loisirs{/*section du loisirs*/
-	bottom: 20px;
 }
 
 .bar_noir{/*les bars noirs du profil*/
@@ -111,7 +120,8 @@ p.photo{
 	background-color: #090909;
 	color: #009688;
 }
-.loisir{
+
+.loisir{/*icones du loisirs*/
 	display: flex;
 	justify-content: space-around;
 	align-items: flex-end;
@@ -130,17 +140,7 @@ p.photo{
 	color: #009688;
 }
 
-h2 i{/*icone du information perssonnel*/
-	padding: 20px;
-	color: #009688;
-}
-
 @media screen and (max-width: 1024px) { 		/*media query 1024px */
-
-body{
-	margin-top: 0px;
-	margin-bottom: 0px;
-}
 
 .main{
 	width: auto;
@@ -167,29 +167,32 @@ h2{
 	display: block;
     clear: both;
     justify-content: center;
-}
+  }
 
-.profil{
+.information_perssonnel, .profil{
 	margin: auto;
-
 }
 
-.information_perssonnel h4, h3, p{
+.information_perssonnel, .date{
 	text-align: center;
 }
 
-.information_perssonnel{
-	margin-left: 0px;
-	padding: 20px;
+.information_perssonnel h4{
+	text-align: center;
 }
 
-.text{/*text d'information_perssonnel*/
+.information_perssonnel p{
+	text-align: center;
+}
+
+.text{
+	text-align: justify; 
 	margin: auto;
-	width: 70%;
+	width: 320px;
+	padding-right: 20px;
 }
 
 .profil .photo{
-	margin-top: 0px;
 	padding-top: 20px;
 	text-align: center;
 }
@@ -209,14 +212,11 @@ h2{
 	margin-top: 0px;
 }
 
-.profil p{/*le bloque qui contien:contact, à propos de moi et loisires*/
-	text-align: justify;
-}
-h1{
+.main h1{
 	font-size: 1.5em;
 }
 
-h2{
+.main h2{
 	font-size: 2em;
 }
 
