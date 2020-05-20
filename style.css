@@ -165,9 +165,7 @@ h2{
 
 .main{
 	display: block;
-    clear: both;
-    justify-content: center;
-  }
+ }
 
 .information_perssonnel, .profil{
 	margin: auto;
