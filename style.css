@@ -68,6 +68,10 @@ p.photo{
 	text-align: justify;
 }
 
+.sec_apropo{
+	min-height: 1400px;
+}
+
 .sec_apropo .apropo{
 	text-indent: 30px;
 }
@@ -147,6 +151,12 @@ p.photo{
 	background-color: white
 }
 
+.sec_apropo{
+	min-height: 2200px;
+	max-height: 2000px;
+
+}
+
 .information_perssonnel h1{
 	font-size: 2em;
 }
@@ -166,6 +176,10 @@ h2{
 .main{
 	display: block;
  }
+
+ .sec_apropo{
+	    min-height: auto;
+}
 
 .information_perssonnel, .profil{
 	margin: auto;
