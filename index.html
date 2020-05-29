@@ -16,15 +16,17 @@
 	<div class="main">
 		<aside class="sidebar">
 			<section class="sidebar-section">
-				<figure class="profile-photo">
-					<img src="images/maphotomini.png" alt="maphoto"/>
-				</figure>
-				<div class="ptecran-titr"><!--s'affiche uniquement pour les écrans de portable-->
-					<h1 class="ptecran-titr__nom">ARTUR KARAPETYAN</h1>
-					<h2 class="tecran-titr__dev">
-						Développeur web freelance
-					</h2>
-				</div>
+				<header>
+					<figure class="profile-photo">
+						<img src="images/maphotomini.png" alt="maphoto"/>
+					</figure>
+					<div class="ptecran-titr"><!--s'affiche uniquement pour les écrans de portable-->
+						<h1 class="ptecran-titr__nom">ARTUR KARAPETYAN</h1>
+						<h2 class="tecran-titr__dev">
+							Développeur web freelance
+						</h2>
+					</div>
+				</header>
 			</section>
 
 			<section class="sidebar-section">
@@ -76,41 +78,57 @@
 			<section class="sidebar-section">
 				<h3 class="sidebar-titre">LOISIRS</h3>
 				<div class="sec-loisires__loisir sidebar-content">
-					<span class="sidbar-icones"><i class="fas fa-swimmer fa-2x"></i></span>
-					<span class="sidbar-icones"><i class="fas fa-biking fa-2x"></i></span>
-					<span class="sidbar-icones"><i class="fas fa-music fa-2x"></i></span>
+					<span class="sidbar-icones">
+						<i class="fas fa-swimmer fa-2x">
+						</i></span>
+					<span class="sidbar-icones">
+						<i class="fas fa-biking fa-2x">
+						</i>
+					</span>
+					<span class="sidbar-icones">
+						<i class="fas fa-music fa-2x">
+						</i>
+					</span>
 				</div>
 			</section>
 		</aside>
 
 		<div class="info-perso">
-			<header><!--mon nom"Artur"+"Dew web"-->
-				<h1 class="head-titlgdecran"><span class="head-titlgdecran__colartur">ARTUR</span> KARAPETYAN</h1>
+			<section>
+				<header><!--mon nom"Artur"+"Dew web"-->
+					<h1 class="head-titlgdecran">
+						<span class="head-titlgdecran__colartur">ARTUR
+						</span>KARAPETYAN
+					</h1>
+					<h2 class="head-titlgdecran__dev">
+						<span class="head-titlgdecran__ligne">Dévelop
+						</span>peur web freelance
+					</h2>
+				</header>
+			</section>
 
-				<h2 class="head-titlgdecran__dev">
-					<span class="head-titlgdecran__ligne">Dévelop</span>peur web freelance
-				</h2>
-			</header>
-			<h3>
-				<i class="fas fa-graduation-cap"></i>FORMATION
-			</h3>
-			<div class="ligne-horizon">
-			</div>
-			<article>
-				<div class="info-perso__contenue"><!--Étudiant Openclassrooms-->
-					<div class="info-perso__datelieu">
-						<span>
+			<section>
+				<h3 class="info-perso__titre">
+					<i class="fas fa-graduation-cap">
+					</i>FORMATION
+				</h3>
+				<div class="ligne-horizon"></div>
+				<article>
+					<div class="info-perso__contenue"><!--Étudiant Openclassrooms-->
+						<div class="info-perso__datelieu">
+							<span>
 							Avril à ce jour
-						</span>
-					</div>
-					<div class="info-perso__text">
-						<h4 class="info-perso__h4"><!--Edudiant oc,TAI informatique,formateur mcdo-->
-							Étudiant Openclassrooms
-						</h4>
-						<span>
-							Parcours Développeur Web
-						</span>
-						<ul>
+							</span>
+						</div>
+						<div class="info-perso__text">
+							<h4 class="info-perso__tittext"><!--Edudiant oc,TAI informatique,formateur mcdo-->
+								Étudiant Openclassrooms
+							</h4>
+							<div class="info-perso__parcours">
+								Parcours Développeur Web
+							</div>
+							<div class="info-perso__textptecran">
+								<ul>
 							<li>
 								Assembler les pages en HTML5 et CSS3 à partir de maquettes graphiques
 							</li>
@@ -126,15 +144,15 @@
 							<li>
 								Organiser et gérer la base de données
 							</li>
-						</ul>
+								</ul>
+							</div>
+						</div>
 					</div>
-				</div>
-			</article>
+				</article>
 
-			<section>
 				<div class="info-perso__contenue">
-					<div class="info-perso__datelieu">
-						<span><i class="fas fa-map-marker-alt"></i>
+					<div class="info-perso__datelieu"><i class="fas fa-map-marker-alt"></i>
+						<span>
 							Avril 2015
 						</span>
 						<span>
@@ -142,48 +160,48 @@
 						</span>
 					</div>
 					<div class="info-perso__text">
-						<h4 class="info-perso__h4"><!--Technicien d'Assistance en informatique-->
+						<h4 class="info-perso__tittext">
 							Technicien d'Assistance en informatique
 						</h4>
-						<ul>
-							<li>
-								Mettre à jour un équipement numérique
-							</li>
-							<li>
-								Intervenir sur les composants d’un poste informatique
-							</li>
-							<li>
-								Installer un système dans un poste client
-							</li>
-							<li>
-								Contribuer à la sécurité d’un parc informatique
-							</li>
-							<li>
-								Installer et intervenir sur un équipement réseau
-							</li>
-							<li>
-								Diagnostiquer et résoudre un dysfonctionnement numérique
-							</li>
-							<li>
-								Assister les utilisateurs en environnement bureautique
-							</li>
-						</ul>
+						<div class="info-perso__textptecran">
+							<ul>
+								<li>
+									Mettre à jour un équipement numérique
+								</li>
+								<li>
+									Intervenir sur les composants d’un poste informatique
+								</li>
+								<li>
+									Installer un système dans un poste client
+								</li>
+								<li>
+									Contribuer à la sécurité d’un parc informatique
+								</li>
+								<li>
+									Installer et intervenir sur un équipement réseau
+								</li>
+								<li>
+									Diagnostiquer et résoudre un dysfonctionnement numérique
+								</li>
+								<li>
+									Assister les utilisateurs en environnement bureautique
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</section>
 
 			<section>
-				<h3>
+				<h3 class="info-perso__titre">
 					<i class="fas fa-suitcase">
 					</i>EXPÉRIENCE PROFESSIONNELLE
 				</h3>
 				<div class="ligne-horizon">
 				</div>
 				<div class="info-perso__contenue">
-					<div class="info-perso__datelieu">
+					<div class="info-perso__datelieu"><i class="fas fa-map-marker-alt"></i>
 						<span>
-							<i class="fas fa-map-marker-alt">
-							</i>
 							2010-2019
 						</span>
 						<span>
@@ -191,32 +209,34 @@
 						</span>
 					</div>
 					<div class="info-perso__text">
-						<h4 class="info-perso__ch4">
+						<h4 class="info-perso__tittext">
 							Formateur McDonald's
 						</h4>
-						<ul>
-							<li>
-								Formation des nouveaux équipiers polyvalants
-							</li>
-							<li>
-								Vérification de la bonne application des normes sécurité et qualité
-							</li>
-							<li>
-								Prise de commande
-							</li>
-							<li>
-								Service d'Accueil
-							</li>
-							<li>
-								Réception et rangement de stock
-							</li>
-						</ul>
+						<div class="info-perso__textptecran">
+							<ul>
+								<li>
+									Formation des nouveaux équipiers polyvalants
+								</li>
+								<li>
+									Vérification de la bonne application des normes sécurité et qualité
+								</li>
+								<li>
+									Prise de commande
+								</li>
+								<li>
+									Service d'Accueil
+								</li>
+								<li>
+									Réception et rangement de stock
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 
 				<div class="info-perso__contenue">
-					<div class="info-perso__datelieu">
-						<span><i class="fas fa-map-marker-alt"></i>
+					<div class="info-perso__datelieu"><i class="fas fa-map-marker-alt"></i>
+						<span>
 							2015-2017
 						</span>
 						<span>
@@ -224,32 +244,34 @@
 						</span>
 					</div>
 					<div class="info-perso__text">
-						<h4 class="info-perso__h4">
+						<h4 class="info-perso__tittext">
 							Auto-entrepreneur
 						</h4>
-						<ul>
-							<li>
-								Réparation d’ordinateurs, désinfection viral
-							</li>
-							<li>
-								Prise en main à distance et sur site
-							</li>
-							<li>
-								Diagnostic et résolution d’un dysfonctionnement hardware et software, remplacement des matériaux défectueux
-							</li>
-							<li>
-								Installation et personnalisation des postes clients, paramétrage accès réseau au différent dossier et fichiers
-							</li>
-							<li>
-								Conseil au Client pour l’utilisation de différents outils d’informatiques
-							</li>
-						</ul>
+						<div class="info-perso__textptecran">
+							<ul>
+								<li>
+									Réparation d’ordinateurs, désinfection viral
+								</li>
+								<li>
+									Prise en main à distance et sur site
+								</li>
+								<li>
+									Diagnostic et résolution d’un dysfonctionnement hardware et software, remplacement des matériaux défectueux
+								</li>
+								<li>
+									Installation et personnalisation des postes clients, paramétrage accès réseau au différent dossier et fichiers
+								</li>
+								<li>
+									Conseil au Client pour l’utilisation de différents outils d’informatiques
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</section>
 
 			<section>
-				<h3>
+				<h3 class="info-perso__titre">
 					<i class="fas fa-laptop-code">
 					</i>COMPETENCES
 				</h3>
@@ -257,23 +279,30 @@
 				</div>
 				<div class="info-perso__contenue">
 					<div class="info-perso__competences">
-						<p>
-							<i class="fas fa-file-code fa-2x"></i>
-							Découper, assembler et intégrer tous les éléments d’une maquettegraphique en HTML5 et CSS
-						</p>
-						<p>
-							<i class="fas fa-photo-video fa-2x"></i>
-							Ajouter du contenu audio et vidéo en HTML5
-						</p>
-						<p>
-							<i class="fas fa-file-contract fa-2x"></i>
-							Appliquer les standards du web et les normes en vigueur
-						</p>
-						<p>
-								<i class="fas fa-wrench fa-2x">
+						<div class="info-perso__textptecran">
+							<ul>
+								<li>
+								<i class="fas fa-file-code fa-2x">
 								</i>
-								Construire un site web fluide s’adaptant à tout type d’écran (web, smartphone et tablette)
-						</p>
+								Découper, assembler et intégrer tous les éléments d’une maquettegraphique en HTML5 et CSS
+								</li>
+								<li>
+									<i class="fas fa-photo-video fa-2x">
+									</i>
+									Ajouter du contenu audio et vidéo en HTML5
+								</li>
+								<li>
+									<i class="fas fa-file-contract fa-2x">
+									</i>
+									Appliquer les standards du web et les normes en vigueur
+								</li>
+								<li>
+									<i class="fas fa-wrench fa-2x">
+									</i>
+									Construire un site web fluide s’adaptant à tout type d’écran (web, smartphone et tablette)
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</section>
