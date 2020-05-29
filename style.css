@@ -39,7 +39,7 @@ body{
 
 .sidebar{
 	background-color: #009688;
-	max-width: 470px;
+	width: 400px;
 }
 
 .sidebar-titre{
@@ -78,7 +78,7 @@ body{
 	border: 4px solid #4DB6AC;
 }
 
-.ptecran-titr{/*nam, prénom et développeur web freelance s'affiche uniquement avec les petits écrans*/
+.ptecran-titr{
 	display: none;
 }
 
@@ -96,99 +96,110 @@ body{
 	padding-left: 40px;
 }
 
-.sec-loisires__loisir{/*icones du loisirs*/
+.sec-loisires__loisir{
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-end;
 }
 
-.head-titlgdecran{/*artur karapetyan*/
-	margin-top: 70px;
+.head-titlgdecran{
+	margin-top: 90px;
 }
 
 .head-titlgdecran__colartur{
 	color: #009688;
 }
 
-.head-titlgdecran__dev{/* le texte du développeur web freelance*/
+.head-titlgdecran__dev{
 	color: #455A64;
 	font-size: 1.3em;
 	font-weight: bold;
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 }
 
-.head-titlgdecran__ligne{/*développeur web freelance*/
+.head-titlgdecran__ligne{/
 	border-bottom: 2px solid #009688;
 }
 
-.info-perso{/*le bloque qui contien: formation, exp. professionnelle et competences*/
-	margin-left: 50px;
-	padding-right: 50px;
+.info-perso{
+	padding: 0px 50px;
+	width: 60%;
 }
+
 .info-perso li{
 	list-style-type: none;
 	margin-left: -37px;
 }
 
 .info-perso__contenue{
+	padding: 50px 0px;
 	display: flex;
-	flex-direction: row;
-	align-items: left;
-	padding-top: 20px;
-
 }
-.fa-file-code{
-	float: left;
+
+.info-perso__datelieu{ 
+	min-width: 120px;
+	max-width: 120px;
+	height: 50px;
 }
 
 .info-perso__text{
-	margin-left: 100px;
-	width: 450px;
-
-
+	margin-left: 80px;
+	width: 400px;
 }
 
-.info-perso__h4{/*Edudiant oc,TAI informatique,formateur mcdo*/
+.info-perso__tittext{
 	color: #009688;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	padding-bottom: 10px;
 }
 
-.info-perso .fas{/*icons du localisation Lyon du information perssonnel*/
-	color: #009688;
-	padding-right: 10px;
-	margin-left: -25px;
+.info-perso__competences li{
+	padding: 20px 0px;
 }
 
-.fa-suitcase, .fa-graduation-cap, .fa-laptop-code{/*icones d'information_perssonnel*/ 
-	margin-right: 20px;
+.fa-map-marker-alt, .fa-file-code,.fa-photo-video, .fa-file-contract, .fa-wrench, .fa-graduation-cap, .fa-suitcase, .fa-laptop-code{
 	color: #009688;
 }
 
-.ligne-horizon{ /*ligne sur formation, experience et competnece*/
+.fa-graduation-cap, .fa-suitcase, .fa-laptop-code{
+	padding-right: 25px;
+}
+
+.fa-map-marker-alt, .fa-file-code,.fa-photo-video, .fa-file-contract, .fa-wrench{
+	float: left;
+	padding-bottom: 4px;
+	padding-right: 15px;
+}
+
+.ligne-horizon{ 
 	border-bottom: 2px solid #009688;
 }
 
 
 @media screen and (max-width: 1024px) { 		/*media query 1024px */
+
 .main{
 	width: auto;
+	width: 700px;
 	background-color: white
 }
 
-.sec-apropo{
-	min-height: 2200px;
-	max-height: 2000px;
-}
-
-.info-perso h1{
-	font-size: 2em;
-}
-
-.ligne_horizon{
+.ligne-horizon{
 	display: none;
 }
+
+.info-perso{
+	padding: 0px 20px;
+}
+.info-perso__text{
+	margin-left: 0px;
+}
+
+.sec-loisires__loisir{
+	justify-content: space-around;
+	padding: 20px 0px;
+}
+
 }
  
 @media screen and (min-width: 360px) and (max-width: 680px) {/*media query 680px */
@@ -207,13 +218,18 @@ body{
 
 .main{
 	display: block;
+	width: 400px;
+	margin: auto;
  }
 
- .bloc-photo{
+ .sidebar{
+	 margin-bottom: 40px;
+ }
+
+ .profile-photo{
 	padding-top: 20px;
 	text-align: center;
 }
-
 
 .ptecran-titr{/*s'affiche uniquement pour les écrans de portable*/
 	display: contents;
@@ -230,34 +246,66 @@ body{
 	margin-top: 0px;
 }
 
- .sec-apropo{
-	    min-height: auto;
-}
-
 .info-perso{
+	width: 400px;
+	margin-top: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	align-items: center;
+}
+
+.info-perso__contenue{
+	display: flex;
+	flex-direction: column;
+	padding: 25px 0px;
+}
+
+.info-perso__titre{
 	text-align: center;
 }
 
-.ifo-perso__contenu{
-	text-align: justify; 
-	margin: auto;
-	width: 320px;
-	padding-right: 20px;
+.fa-graduation-cap{
+	padding-right: 5px;
 }
 
-.info-perso h4{
+.info-perso__datelieu{
+	text-align: center;
+	max-width: none;
+	min-width: none;
+	margin-bottom: 0px;
+}
+
+.info-perso__tittext{
 	text-align: center;
 }
 
-.info-perso p{
+.info-perso__parcours{
 	text-align: center;
+	padding-top: 20px;
+}
+
+.fa-map-marker-alt{
+	float: none;
+	padding: 0px;
+}
+
+.info-perso__text{
+	margin-left: 0px;
+}
+
+.info-perso__textptecran{
+	padding: 0px 30px;
+
+}
+
+.fa-file-code, .fa-photo-video, .fa-file-contract, .fa-wrench{
+	float: left;
+	padding-bottom: 20px;
 }
 
 .info-perso{
 	font-size: 1em;
-}
-
-.competnaces{
-	padding-bottom: 20px;
 }
 }
