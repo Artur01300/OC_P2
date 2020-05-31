@@ -34,7 +34,7 @@ body{
 	justify-content: center;
 	width: 1000px;
 	margin: auto;
-	background-color: white
+	background-color: white;
 }
 
 .sidebar{
@@ -117,7 +117,7 @@ body{
 	margin-bottom: 100px;
 }
 
-.head-titlgdecran__ligne{/
+.head-titlgdecran__ligne{
 	border-bottom: 2px solid #009688;
 }
 
@@ -126,25 +126,28 @@ body{
 	width: 60%;
 }
 
-.info-perso li{
-	list-style-type: none;
-	margin-left: -37px;
-}
-
 .info-perso__contenue{
-	padding: 50px 0px;
+	margin: 40px 0px;
 	display: flex;
-}
-
-.info-perso__datelieu{ 
-	min-width: 120px;
-	max-width: 120px;
-	height: 50px;
+	flex-direction: row;
 }
 
 .info-perso__text{
-	margin-left: 80px;
-	width: 400px;
+	padding-left: 50px;
+}
+
+.info-perso__textul{
+	margin-left: -37px;
+	padding-bottom: 20px;
+}
+
+.info-perso__textul li{
+	padding-bottom: 20px;
+}
+
+.info-perso__datelieu{
+	min-width: 120px;
+	max-width: 120px;
 }
 
 .info-perso__tittext{
@@ -153,159 +156,154 @@ body{
 	margin-bottom: 0px;
 }
 
-.info-perso__competences li{
-	padding: 20px 0px;
+.info-perso__paroc{
+	padding-top: 10px;
 }
 
-.fa-map-marker-alt, .fa-file-code,.fa-photo-video, .fa-file-contract, .fa-wrench, .fa-graduation-cap, .fa-suitcase, .fa-laptop-code{
+.fa-map-marker-alt, .fa-file-code, .fa-file-contract, .fa-wrench, .fa-graduation-cap, .fa-suitcase, .fa-file-video,
+ .fa-laptop-code,.fa-chalkboard-teacher{
 	color: #009688;
 }
 
 .fa-graduation-cap, .fa-suitcase, .fa-laptop-code{
 	padding-right: 25px;
-}
-
-.fa-map-marker-alt, .fa-file-code,.fa-photo-video, .fa-file-contract, .fa-wrench{
-	float: left;
-	padding-bottom: 4px;
-	padding-right: 15px;
-}
-
-.ligne-horizon{ 
-	border-bottom: 2px solid #009688;
-}
-
-
-@media screen and (max-width: 1024px) { 		/*media query 1024px */
-
-.main{
-	width: auto;
-	width: 700px;
-	background-color: white
-}
-
-.ligne-horizon{
-	display: none;
-}
-
-.info-perso{
-	padding: 0px 20px;
-}
-.info-perso__text{
-	margin-left: 0px;
-}
-
-.sec-loisires__loisir{
-	justify-content: space-around;
-	padding: 20px 0px;
-}
-
-}
- 
-@media screen and (min-width: 360px) and (max-width: 680px) {/*media query 680px */
-
-.main h1{
-	font-size: 1.5em;
-}
-
-.main h2{
-	font-size: 2em;
-}
-
-.head-titlgdecran, .head-titlgdecran__dev{/*titre du info-perso*/
-	display: none;
-}
-
-.main{
-	display: block;
-	width: 400px;
-	margin: auto;
- }
-
- .sidebar{
-	 margin-bottom: 40px;
- }
-
- .profile-photo{
-	padding-top: 20px;
-	text-align: center;
-}
-
-.ptecran-titr{/*s'affiche uniquement pour les écrans de portable*/
-	display: contents;
-	text-align: center;
-}
-
-.ptecran-titr__nom, h1{/*prenom, nom de color d'apparition*/
-	color: white;
-}
-
-.ptecran-titr__dev{/*Développeur web freelance*/
-	font-size: 1.3em;
-	font-weight: bold;
-	margin-top: 0px;
-}
-
-.info-perso{
-	width: 400px;
-	margin-top: 20px;
-	margin-left: 0px;
-	margin-right: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	align-items: center;
-}
-
-.info-perso__contenue{
-	display: flex;
-	flex-direction: column;
-	padding: 25px 0px;
-}
-
-.info-perso__titre{
-	text-align: center;
-}
-
-.fa-graduation-cap{
-	padding-right: 5px;
-}
-
-.info-perso__datelieu{
-	text-align: center;
-	max-width: none;
-	min-width: none;
-	margin-bottom: 0px;
-}
-
-.info-perso__tittext{
-	text-align: center;
-}
-
-.info-perso__parcours{
-	text-align: center;
-	padding-top: 20px;
-}
-
-.fa-map-marker-alt{
-	float: none;
-	padding: 0px;
-}
-
-.info-perso__text{
-	margin-left: 0px;
-}
-
-.info-perso__textptecran{
-	padding: 0px 30px;
-
-}
-
-.fa-file-code, .fa-photo-video, .fa-file-contract, .fa-wrench{
-	float: left;
 	padding-bottom: 20px;
 }
 
-.info-perso{
-	font-size: 1em;
+.fa-map-marker-alt, .fa-chalkboard-teacher{
+	float: left;
+	padding-bottom: 25px;
+	padding-right: 10px;
 }
+
+.info-perso__competences li{
+	list-style: none;
+	padding-bottom: 30px;
+}
+
+.fa-ul li{
+	padding-left: 20px;
+}
+
+
+.ligne-horizon{
+	border-bottom: 2px solid #009688;
+}
+
+@media screen and (max-width: 1024px) {
+
+	.main{
+		width: auto;
+		width: 700px;
+		background-color: white
+	}
+
+	.ligne-horizon{
+		display: none;
+	}
+
+	.head-titlgdecran, .head-titlgdecran__dev{
+		text-align: center;
+	}
+
+	.info-perso__contenue{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.info-perso{
+		padding: 0px 30px;
+	}
+
+	.info-perso__tittext{
+		text-align: center;
+		margin-right: 30px;
+	}
+
+	.info-perso__titre{
+		text-align: center;
+		width: 355px;
+	}
+
+	.info-perso__datelieu{
+		text-align: center;
+		margin-bottom: 20px;
+		min-width: none;
+		max-width: none;
+	}
+
+	.info-perso__text{
+		padding-left: 30px;
+	}
+
+	.fa-map-marker-alt, .fa-chalkboard-teacher{
+		float: none;
+		padding-right: 5px;
+		padding-bottom: 0px;
+	}
+}
+
+@media screen and (min-width: 360px) and (max-width: 680px) {
+
+	body{
+		margin: 0px;
+	}
+	.head-titlgdecran, .head-titlgdecran__dev{
+		display: none;
+	}
+
+	.main{
+		display: block;
+		width: 400px;
+	 }
+
+	 .profile-photo{
+		 padding-top: 70px;
+	 }
+
+	 .ptecran-titr{
+		display: contents;
+		text-align: center;
+	}
+
+	.ptecran-titr__nom{
+		color: white;
+	}
+
+	.info-perso{
+		width: 400px;
+		padding: 0px;
+		margin: 0px;
+	}
+
+	.info-perso__titre{
+		padding-top: 30px;
+		text-align: center;
+		width: auto;
+	}
+
+	.info-perso__datelieu{
+		text-align: center;
+		padding: 0px;
+	}
+
+	.info-perso__octail{
+		font-size: small;
+		color: #009688;
+		background-color: #455A64;
+	}
+
+	.info-perso__tittext{
+		width: auto;
+		text-align: center;
+		margin-right: 0px;
+	}
+
+	.info-perso__text{
+		padding-right: 30px
+	}
+
+	.info-perso__competences{
+		padding: 0px 30px;
+	}
 }
