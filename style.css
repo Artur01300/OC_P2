@@ -245,9 +245,11 @@ body{
 
 @media screen and (min-width: 360px) and (max-width: 680px) {
 
-	body{
-		margin: 0px;
+	*{
+		margin: 0;
+		padding: 0;
 	}
+
 	.head-titlgdecran, .head-titlgdecran__dev{
 		display: none;
 	}
@@ -255,6 +257,12 @@ body{
 	.main{
 		display: block;
 		width: 400px;
+		margin-bottom: 0px;
+
+	 }
+	 .sidebar-bio{
+		padding-top: 30px;
+		padding-bottom: 30px;
 	 }
 
 	 .profile-photo{
@@ -268,12 +276,21 @@ body{
 
 	.ptecran-titr__nom{
 		color: white;
+		margin-bottom: 20px;
+	}
+	.tecran-titr__dev{
+		margin-bottom: 50px;
 	}
 
 	.info-perso{
 		width: 400px;
 		padding: 0px;
 		margin: 0px;
+		border:1px white solid;
+	}
+
+	.fa-graduation-cap, .fa-suitcase, .fa-laptop-code{
+		padding-right: 10px;
 	}
 
 	.info-perso__titre{
@@ -297,6 +314,11 @@ body{
 		width: auto;
 		text-align: center;
 		margin-right: 0px;
+	}
+
+	.info-perso__textul{
+		margin-left: 0px;
+		padding: 20px 20px;
 	}
 
 	.info-perso__text{
