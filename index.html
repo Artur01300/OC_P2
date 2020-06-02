@@ -4,26 +4,22 @@
 <head>
 	<title>Artur Karapetyan</title>
 	<meta charset="utf-8">
-
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Cette étape a pour principal avantage d’éviter le redimensionnement automatique de la mise en page, qui rend les contenus trop petits, de fixer la largeur du mobile et de pouvoir s’y adapter par la suite.-->
-
-	<link rel="stylesheet" type="text/css" href="style.css">
-
-	<!--www.fontawesome.com-->
 	<script src="https://kit.fontawesome.com/cdcdcab35a.js" crossorigin="anonymous"></script>
-</head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
 <body>
-	<div class="main">
+	<div class="contaner">
 		<aside class="sidebar">
 			<section>
 				<header>
 					<figure class="profile-photo">
-						<img src="images/maphotomini.png" alt="maphoto"/>
+						<img src="images/maphoto.jpg" alt="maphoto"/>
 					</figure>
-					<div class="ptecran-titr"><!--s'affiche uniquement pour les écrans de portable-->
-						<h2 class="ptecran-titr__nom">
+					<div class="ptecran-titr show-on-mobile"><!--s'affiche uniquement pour les écrans de portable-->
+						<h1 class="ptecran-titr__nom">
 							ARTUR KARAPETYAN
-						</h2>
+						</h1>
 						<h2 class="tecran-titr__dev">
 							Développeur web freelance
 						</h2>
@@ -32,32 +28,49 @@
 			</section>
 
 			<section>
-				<h3 class="sidebar-titre">CONTACT</h3>
-
+				<h3 class="sidebar-titre">
+					CONTACT
+				</h3>
 				<div class="sec-addresse sidebar-content">
 					<div class="contact-details-item">
 						<span class="contact-details-label">Adresse</span>
 						<a href="https://goo.gl/maps/2DULDQgCZo9Kx13f8" target=" _blanc">
-							<address>Belley (01), France</address>
+							<address>
+								Belley (01), France
+							</address>
 						</a>
 					</div>
 					<div class="contact-details-item">
-						<span class="contact-details-label">Téléphone:</span>
-						<a href="tel:+33060000">06 00 00 00 00</a>
+						<span class="contact-details-label">
+							Téléphone:
+						</span>
+						<a href="tel:+33060000">
+							06 00 00 00 00
+						</a>
 					</div>
 					<div class="contact-details-item">
-						<span class="contact-details-label">Email:</span>
-						<a href="https://outlook.live.com/mail/0/inbox?authRedirect=true" target=" _blanc">artur@outlook.fr</a>
+						<span class="contact-details-label">
+							Email:
+						</span>
+						<a href="https://outlook.live.com/mail/0/inbox?authRedirect=true" target=" _blanc">
+							artur@outlook.fr
+						</a>
 					</div>
 					<div class="contact-details-item">
-						<span class="contact-details-label">Site web:</span>
-						<a href="https://www.artur-karapetyan.fr" target=" _blanc">www.artur-karapetyan.fr</a>
+						<span class="contact-details-label">
+							Site web:
+						</span>
+						<a href="https://www.artur-karapetyan.fr" target=" _blanc">
+							www.artur-karapetyan.fr
+						</a>
 					</div>
 				</div>
 			</section>
 
 			<section>
-				<h3 class="sidebar-titre">À PROPOS DE MOI</h3>
+				<h3 class="sidebar-titre">
+					À PROPOS DE MOI
+				</h3>
 				<div class="sidebar-bio sidebar-content">
 					<p>
 						Bonjour, je me présente, Artur, passionné d'informatique.
@@ -78,7 +91,9 @@
 			</section>
 
 			<section>
-				<h3 class="sidebar-titre">LOISIRS</h3>
+				<h3 class="sidebar-titre">
+					LOISIRS
+				</h3>
 				<div class="sec-loisires__loisir sidebar-content">
 					<span class="sidbar-icones">
 						<i class="fas fa-swimmer fa-2x">
@@ -96,11 +111,12 @@
 			</section>
 		</aside>
 
-		<div class="info-perso">
+		<div class="main">
 			<section>
-				<header>
+				<header class="hidden-on-mobile">
 					<h1 class="head-titlgdecran">
-						<span class="head-titlgdecran__colartur">ARTUR
+						<span class="head-titlgdecran__colartur">
+							ARTUR
 						</span>KARAPETYAN
 					</h1>
 					<h2 class="head-titlgdecran__dev">
@@ -110,24 +126,26 @@
 			</section>
 
 			<section>
-				<h3 class="info-perso__titre">
-					<i class="fas fa-graduation-cap">
+				<h3 class="main__titre">
+					<i class="main__titre--icone icone-turquois fas fa-graduation-cap">
 					</i>FORMATION
 				</h3>
 				<div class="ligne-horizon">
 				</div>
 				<article>
-					<div class="info-perso__contenue">
-						<div class="info-perso__datelieu"><i class="fas fa-chalkboard-teacher"></i>Avril à ce jour
+					<div class="main__contenue">
+						<div class="main__contenue--datelieu">
+							<i class="icone-turquois fas fa-map-marker-alt">
+							</i>Avril à ce jour
 						</div>
-						<div class="info-perso__text">
-							<h4 class="info-perso__tittext">
+						<div class="main__contenue--text">
+							<h4 class="main__contenue--tittext">
 								Étudiant Openclassrooms
 							</h4>
-							<p class="info-perso__tittext info-perso__paroc">
+							<h5 class="main__contenue--tittext">
 								Parcours Développeur Web
-							</p>
-							<ul class="info-perso__textul">
+							</h5>
+							<ul class="main__contenue--textul">
 								<li>
 									Assembler les pages en HTML5 et CSS3 à partir de maquettes graphiques
 								</li>
@@ -147,15 +165,19 @@
 						</div>
 					</div>
 				</article>
-
-				<div class="info-perso__contenue">
-					<div class="info-perso__datelieu"><i class="fas fa-map-marker-alt"></i>Avril 2015 Lyon
+				<div class="main__contenue">
+					<div class="main__contenue--datelieu">
+						<i class="icone-turquois fas fa-map-marker-alt">
+						</i>Avril 2015 Lyon
 					</div>
-					<div class="info-perso__text">
-						<h4 class="info-perso__tittext">
-							Technicien d'Assistance en informatique
+					<div class="main__contenue--text">
+						<h4 class="main__contenue--tittext">
+							AFPA
 						</h4>
-						<ul class="info-perso__textul">
+						<h5 class="main__contenue--tittext">
+							Technicien d'Assistance en informatique
+						</h5>
+						<ul class="main__contenue--textul">
 							<li>
 								Mettre à jour un équipement numérique
 							</li>
@@ -183,20 +205,23 @@
 			</section>
 
 			<section>
-				<h3 class="info-perso__titre">
-					<i class="fas fa-suitcase">
+				<h3 class="main__titre">
+					<i class="main__titre--icone icone-turquois fas fa-suitcase">
 					</i>EXPÉRIENCE PROFESSIONNELLE
 				</h3>
 				<div class="ligne-horizon">
 				</div>
-				<div class="info-perso__contenue">
-					<div class="info-perso__datelieu"><i class="fas fa-map-marker-alt"></i>2010-2019 Belley (01)
+				<div class="main__contenue">
+					<div class="main__contenue--datelieu"><i class="icone-turquois fas fa-map-marker-alt"></i>2010-2019 Belley (01)
 					</div>
-					<div class="info-perso__text">
-						<h4 class="info-perso__tittext">
-							Formateur McDonald's
+					<div class="main__contenue--text">
+						<h4 class="main__contenue--tittext">
+							McDonald's
 						</h4>
-						<ul class="info-perso__textul">
+						<h5 class="main__contenue--tittext">
+							Formateur McDonald's
+						</h5>
+						<ul class="main__contenue--textul">
 							<li>
 								Formation des nouveaux équipiers polyvalants
 							</li>
@@ -215,14 +240,17 @@
 						</ul>
 					</div>
 				</div>
-				<div class="info-perso__contenue">
-					<div class="info-perso__datelieu"><i class="fas fa-map-marker-alt"></i>2015-2017 Belley (01)
+				<div class="main__contenue">
+					<div class="main__contenue--datelieu"><i class="icone-turquois fas fa-map-marker-alt"></i>2015-2017 Belley (01)
 					</div>
-					<div class="info-perso__text">
-						<h4 class="info-perso__tittext">
-							Auto-entrepreneur
+					<div class="main__contenue--text">
+						<h4 class="main__contenue--tittext">
+							BobNet
 						</h4>
-						<ul class="info-perso__textul">
+						<h5 class="main__contenue--tittext">
+							Auto-entrepreneur de dépannage informatique
+						</h5>
+						<ul class="main__contenue--textul">
 							<li>
 								Réparation d’ordinateurs, désinfection viral
 							</li>
@@ -244,26 +272,42 @@
 			</section>
 
 			<section>
-				<h3 class="info-perso__titre">
-					<i class="fas fa-laptop-code">
+				<h3 class="main__titre">
+					<i class="main__titre--icone icone-turquois fas fa-laptop-code">
 					</i>COMPETENCES
 				</h3>
 				<div class="ligne-horizon">
 				</div>
-				<div class="info-perso__contenue">
-					<div class="info-perso__competences">
+				<div class="main__contenue">
+					<div class="main__competences">
 						<ul class="fa-ul">
-							<li><span class="fa-li"><i class="fas fa-file-code fa-2x"></i></span>
+							<li>
+								<span class="fa-li">
+									<i class="icone-turquois fas fa-file-code fa-2x">
+									</i>
+								</span>
 								Découper, assembler et intégrer tous les éléments d’une maquette graphique en HTML5 et CSS
 							</li>
-							<li><span class="fa-li"><i class="far fa-file-video fa-2x"></i></span>
+							<li>
+								<span class="fa-li">
+									<i class="icone-turquois far fa-file-video fa-2x">
+									</i>
+								</span>
 								Ajouter du contenu audio et vidéo en HTML5
 							</li>
-							<li><span class="fa-li"><i class="fas fa-file-contract fa-2x"></i></span>
-								Appliquer les standards du web et les normes en vigueur
+							<li>
+								<span class="fa-li">
+									<i class="icone-turquois fas fa-file-contract fa-2x">
+									</i>
+								</span>
+									Appliquer les standards du web et les normes en vigueur
 							</li>
-							<li><span class="fa-li"><i class="fas fa-wrench fa-2x"></i></span>
-								Construire un site web fluide s’adaptant à tout type d’écran (web, smartphone et tablette)
+							<li>
+								<span class="fa-li">
+									<i class="icone-turquois fas fa-wrench fa-2x">
+									</i>
+								</span>
+									Construire un site web fluide s’adaptant à tout type d’écran (web, smartphone et tablette)
 							</li>
 						</ul>
 					</div>
