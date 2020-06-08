@@ -8,6 +8,7 @@
 
 h1, h2{
 	font-weight: bold;
+	color: red;
 }
 
 .hidden-on-mobile {
@@ -31,6 +32,7 @@ h1, h2{
 body{
 	font-family: arial, serif, normal;
 	margin: 0px;
+	background-color: lightgoldenrodyellow;
 }
 
 .contaner{
@@ -40,9 +42,16 @@ body{
 	background-color: white;
 }
 
+.ligne-horizon{
+	border-bottom: 2px solid #009688;
+}
+
 .sidebar{
 	background-color: #009688;
 	width: 450px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .sidebar-titre{
@@ -131,15 +140,14 @@ body{
 .main__contenue{
 	margin: 20px 0px;
 	display: flex;
-	justify-content: space-between;
+}
+
+.main__contenue--tetails{
+	display: flex;
 }
 
 .main__contenue--datelieu{
-	max-width: 120px;
-}
-
-.main__contenue--text{
-	width: 70%;
+	min-width: 150px;
 }
 
 .main__contenue--textul li{
@@ -170,13 +178,20 @@ body{
 	margin-left: 27px;
 }
 
-.ligne-horizon{
-	border-bottom: 2px solid #009688;
+.recomand{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0px;
+}
+
+.recomand__adresse{
+	display: flex;
+	flex-direction: column;
 }
 
 @media screen and (max-width: 800px) {
 
-	.main__contenue{
+	.main__contenue--tetails{
 		flex-direction: column;
 	}
 
