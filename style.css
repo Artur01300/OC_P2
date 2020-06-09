@@ -2,13 +2,13 @@
 	padding: 0px;
 	margin: 0px;
 }
+
 .profil h2{
 	font-size: 1.5em;
 }
 
 h1, h2{
 	font-weight: bold;
-	color: red;
 }
 
 .hidden-on-mobile {
@@ -32,7 +32,7 @@ h1, h2{
 body{
 	font-family: arial, serif, normal;
 	margin: 0px;
-	background-color: lightgoldenrodyellow;
+	background-color: gray;
 }
 
 .contaner{
@@ -94,10 +94,6 @@ body{
 	display: none;
 }
 
-.sec-addresse{
-	text-align: left;
-}
-
 .sec-addresse a{
 	text-decoration: none;
 	color: black;
@@ -121,7 +117,7 @@ body{
 	color: #455A64;
 	font-size: 1.3em;
 	font-weight: bold;
-	margin-bottom: 100px;
+	margin-bottom: 80px;
 }
 
 .head-titlgdecran__ligne{
@@ -132,56 +128,42 @@ body{
 	padding: 0px 50px;
 }
 
-.main__titre--icone{
-	padding-right: 25px;
-	padding-bottom: 20px;
-}
-
-.main__contenue{
+.main__contaner{
 	margin: 20px 0px;
 	display: flex;
 }
 
-.main__contenue--tetails{
+.main__contaner--tetails{
 	display: flex;
 }
 
-.main__contenue--datelieu{
+.main__contaner--datelieu{
 	min-width: 150px;
 }
 
-.main__contenue--textul li{
+.main__contaner--textul li{
 	padding-bottom: 20px;
 }
 
-.main__contenue--tittext{
+.main__contaner--tittext{
 	color: #009688;
 	margin-bottom: 7px;
 }
 
 .icone-turquois{
 	color: #009688;
-}
-
-.fa-map-marker-alt{
-	float: left;
-	padding-bottom: 25px;
 	padding-right: 10px;
 }
 
-.main__competences li{
-	padding-bottom: 30px;
-	padding-left: 10px;
-}
-
-.fa-ul{
-	margin-left: 27px;
+.fa-circle{
+	font-size: 10px;
+	margin-top: 3px;
 }
 
 .recomand{
 	display: flex;
 	justify-content: space-between;
-	padding: 20px 0px;
+	padding: 20px 15% 50px 0px;
 }
 
 .recomand__adresse{
@@ -189,19 +171,31 @@ body{
 	flex-direction: column;
 }
 
+.recomand__adresse-pad{
+	padding-top: 10px;
+}
+
+.recomand__adresse-pad a{
+	text-decoration: none;
+	color: black;
+}
+
 @media screen and (max-width: 800px) {
 
-	.main__contenue--tetails{
+	.main__contaner--tetails{
 		flex-direction: column;
 	}
 
-	.main__contenue--datelieu{
-		margin-bottom: 20px;
-		max-width: none;
+	.recomand{
+		display: block;
 	}
 
-	.main__contenue--text{
-		width: unset;
+	.recomand__adresse{
+		padding-top: 20px;
+	}
+
+	.main__contaner--datelieu{
+		margin-bottom: 20px;
 	}
 }
 
