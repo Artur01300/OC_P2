@@ -19,20 +19,23 @@ h1, h2{
 	display: none;
 }
 
-.contact-details-item {
- display: flex;
- flex-direction: column;
- margin: 15px 0;
+.contact-details-item{
+ 	display: flex;
+ 	flex-direction: column;
 }
 
 .contact-details-label{
 	font-weight: bold;
 }
 
+.contact-details-item__marg{
+	padding-top: 15px;
+}
+
 body{
 	font-family: arial, serif, normal;
 	margin: 0px;
-	background-color: gray;
+	background-color: #f6f6f6;
 }
 
 .contaner{
@@ -94,7 +97,7 @@ body{
 	display: none;
 }
 
-.sec-addresse a{
+.sidebar-content a{
 	text-decoration: none;
 	color: black;
 }
@@ -138,7 +141,8 @@ body{
 }
 
 .main__contaner--datelieu{
-	min-width: 150px;
+	min-width: 120px;
+	padding-right: 40px;
 }
 
 .main__contaner--textul li{
@@ -163,16 +167,16 @@ body{
 .recomand{
 	display: flex;
 	justify-content: space-between;
-	padding: 20px 15% 50px 0px;
 }
 
 .recomand__adresse{
 	display: flex;
 	flex-direction: column;
+	padding-right: 50px;
 }
 
 .recomand__adresse-pad{
-	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .recomand__adresse-pad a{
@@ -186,17 +190,22 @@ body{
 		flex-direction: column;
 	}
 
+	.main__contaner--datelieu{
+		margin-bottom: 20px;
+	}
+
+	.sidbar-icones{
+		padding: 0px;
+	}
+
 	.recomand{
 		display: block;
 	}
 
-	.recomand__adresse{
-		padding-top: 20px;
+	.recomand__adresse-marg{
+		padding-top: 15px;
 	}
 
-	.main__contaner--datelieu{
-		margin-bottom: 20px;
-	}
 }
 
 @media screen and (max-width: 700px) {
@@ -210,7 +219,11 @@ body{
 	}
 
 	.main{
-		padding-top: 30px;
+		padding: 30px 20px;
+	}
+
+	.recomand{
+		padding: 0px;
 	}
 
 	.hidden-on-mobile {

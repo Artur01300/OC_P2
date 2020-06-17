@@ -11,7 +11,7 @@
 <body>
 	<div class="contaner">
 		<div class="sidebar">
-			<div class="sidebar-part1">
+			<div>
 				<header>
 					<figure class="profile-photo">
 						<img src="images/id.jpg" alt="maphoto"/>
@@ -30,41 +30,41 @@
 					<h3 class="sidebar-titre">
 						CONTACT
 					</h3>
-					<div class="sec-addresse sidebar-content">
+					<div class="sidebar-content">
 						<div class="contact-details-item">
 							<span class="contact-details-label">
 								Adresse:
 							</span>
-							<a href="https://goo.gl/maps/2DULDQgCZo9Kx13f8" target="_blank">
-							<address>
-								294 rue des Églantiers<br/>
-								01300 Belley<br/>
-								France
-							</address>
+							<a href="https://goo.gl/maps/2DULDQgCZo9Kx13f8" target="_blank" title="Voir sur une carte">
+								<address>
+									294 rue des Églantiers<br/>
+									01300 Belley<br/>
+									France
+								</address>
 							</a>
 						</div>
 						<div class="contact-details-item">
-							<span class="contact-details-label">
+							<span class="contact-details-label contact-details-item__marg">
 								Téléphone:
 							</span>
-							<a href="tel:+781101937">
+							<a href="tel:+781101937" title="Afficher sur un téléphone portable">
 								07 81 10 19 37
 							</a>
 						</div>
 						<div class="contact-details-item">
-							<span class="contact-details-label">
+							<span class="contact-details-label contact-details-item__marg">
 								Email:
 							</span>
-							<a href="https://outlook.live.com/mail/0/inbox?authRedirect=true" target="_blank">
+							<a href="https://outlook.live.com/mail/0/inbox?authRedirect=true" target="_blank" title="Ouvrir une nouvelle onglet">
 								artur.karapetyan@outlook.fr
 							</a>
 						</div>
-						<div class="contact-details-item">
+						<div class="contact-details-item contact-details-item__marg">
 							<span class="contact-details-label">
 								Site web:
 							</span>
-							<a href="https://www.artur-karapetyan.fr" target="_blank">
-								www.artur-karapetyan.fr
+							<a href="https://www.artur-karapetyan.fr/p2.html" target="_blank" title="Ouvrir une nouvelle onglet">
+								www.artur-karapetyan.fr/p2
 							</a>
 						</div>
 					</div>
@@ -74,7 +74,7 @@
 					<h3 class="sidebar-titre">
 						À PROPOS DE MOI
 					</h3>
-					<div class="sidebar-bio sidebar-content">
+					<div class="sidebar-content">
 						<p>
 							Bonjour, je me présente, Artur, passionné d'informatique.
 							Après un diplôme de technicien d'assistance en informatique…, j'ai débuté une carrière professionnelle.
@@ -94,7 +94,7 @@
 				</section>
 			</div>
 
-			<div class="sidebar-part2">
+			<div>
 				<section>
 					<h3 class="sidebar-titre">
 						LOISIRS
@@ -117,12 +117,12 @@
 		<div class="main">
 			<header class="hidden-on-mobile">
 				<h1 class="head-titlgdecran">
-						<span class="head-titlgdecran__colartur">
-							ARTUR
-						</span>
-						<span> 
-							KARAPETYAN
-						</span>
+					<span class="head-titlgdecran__colartur">
+						ARTUR
+					</span>
+					<span> 
+						KARAPETYAN
+					</span>
 				</h1>
 				<h2 class="head-titlgdecran__dev">
 					<span class="head-titlgdecran__ligne">
@@ -130,62 +130,63 @@
 					</span>
 				</h2>
 			</header>
+
 			<section>
 				<h3 class="main__titre">
 					<i class="icone-turquois main__titre--icone fas fa-graduation-cap"></i>
 					FORMATION
 				</h3>
 				<div class="ligne-horizon"></div>
-				<article>
-					<div class="main__contaner">
-						<i class="icone-turquois fa fa-dot-circle-o"></i>
-						<div class="main__contaner--tetails">
-							<div class="main__contaner--datelieu">
-								<div>
-									Avril à ce jour
-								</div>
-								<div>
-									Belley 01
-								</div>
-							</div>
-							<div class="main__contaner--text">
-								<h4 class="main__contaner--tittext">
-									Étudiant Openclassrooms
-								</h4>
-								<h5 class="main__contaner--tittext">
-									Parcours Développeur Web
-								</h5>
-								<ul class="main__contaner--textul">
-									<li>
-										Assembler les pages en HTML5 et CSS3 à partir de maquettes graphiques
-									</li>
-									<li>
-										Respecter les normes d’accessibilité et de référencement du W3C
-									</li>
-									<li>
-										Assurer la compatibilité avec les différents navigateurs du marché
-									</li>
-									<li>
-										Mettre en place une communication entre client et serveur avec JavaScript
-									</li>
-									<li>
-										Organiser et gérer la base de données
-									</li>
-								</ul>
-							</div>
+
+				<div class="main__contaner">
+					<i class="icone-turquois fa fa-dot-circle-o"></i>
+					<div class="main__contaner--tetails">
+						<div class="main__contaner--datelieu">
+							<p>
+								Avril à ce jour
+							</p>
+							<p>
+								Belley 01
+							</p>
+						</div>
+						<div class="main__contaner--text">
+							<h4 class="main__contaner--tittext">
+								Étudiant Openclassrooms
+							</h4>
+							<h5 class="main__contaner--tittext">
+								Parcours Développeur Web
+							</h5>
+							<ul class="main__contaner--textul">
+								<li>
+									Assembler les pages en HTML5 et CSS3 à partir de maquettes graphiques
+								</li>
+								<li>
+									Respecter les normes d’accessibilité et de référencement du W3C
+								</li>
+								<li>
+									Assurer la compatibilité avec les différents navigateurs du marché
+								</li>
+								<li>
+									Mettre en place une communication entre client et serveur avec JavaScript
+								</li>
+								<li>
+									Organiser et gérer la base de données
+								</li>
+							</ul>
 						</div>
 					</div>
-				</article>
+				</div>
+
 				<div class="main__contaner">
 					<i class="icone-turquois fas fa-circle"></i>
 					<div class="main__contaner--tetails">
 						<div class="main__contaner--datelieu">
-							<div>
+							<p>
 								Avril 2015
-							</div>
-							<div>
+							</p>
+							<p>
 								Lyon
-							</div>
+							</p>
 						</div>
 						<div class="main__contaner--text">
 							<h4 class="main__contaner--tittext">
@@ -223,8 +224,8 @@
 			</section>
 
 			<section>
-				<h3 class="main__titre">
-					<i class="main__titre--icone icone-turquois fas fa-suitcase"></i>
+				<h3>
+					<i class="icone-turquois fas fa-suitcase"></i>
 					EXPÉRIENCE PROFESSIONNELLE
 				</h3>
 				<div class="ligne-horizon"></div>
@@ -232,14 +233,14 @@
 					<i class="icone-turquois fa fa-dot-circle-o"></i>
 					<div class="main__contaner--tetails">
 						<div class="main__contaner--datelieu">
-							<div>
+							<p>
 								2010-2019
-							</div>
-							<div>
+							</p>
+							<p>
 								Belley (01)
-							</div>
+							</p>
 						</div>
-						<div class="main__contaner--text">
+						<div>
 							<h4 class="main__contaner--tittext">
 								McDonald's
 							</h4>
@@ -270,14 +271,14 @@
 					<i class="icone-turquois fas fa-circle"></i>
 					<div class="main__contaner--tetails">
 						<div class="main__contaner--datelieu">
-							<div>
+							<p>
 								2015-2017
-							</div>
-							<div>
+							</p>
+							<p>
 								Belley (01)
-							</div>
+							</p>
 						</div>
-						<div class="main__contaner--text">
+						<div>
 							<h4 class="main__contaner--tittext">
 								BobNet
 							</h4>
@@ -312,42 +313,43 @@
 					RECOMMANDATIONS
 				</h3>
 				<div class="ligne-horizon"></div>
-				<div class="recomand">
-					<div class="recomand__adresse">
-						<h5 class="recomand__adresse-pad">
-							MAXIME KIEMAN
-						</h5>
-						<span class="recomand__adresse-pad">
-							Directeur, Mon agance
-						</span>
-						<span class="recomand__adresse-pad">
-							Téléphone:
-						</span>
-						<span class="recomand__adresse-pad">
-							Email:
-							<a href="https://outlook.live.com/mail/0/inbox?authRedirect=true" target="_blank">
-								name@email.com
-							</a>
-						</span>
-					</div>
-					<div class="recomand__adresse">
-						<h5 class="recomand__adresse-pad">
-							MAXIME KIEMAN
-						</h5>
-						<span class="recomand__adresse-pad">
-							Directeur, Mon agance
-						</span>
-						<span class="recomand__adresse-pad">
-							Téléphone:
-						</span>
-						<span class="recomand__adresse-pad">
-							Email:
-							<a href="https://outlook.live.com/mail/0/inbox?authRedirect=true" target="_blank">
-								name@email.com
-							</a>
-						</span>
-					</div>
-				</div>		
+				
+					<div class="recomand main__contaner">
+						<div class="recomand__adresse">
+							<h5 class="recomand__adresse-pad">
+								MAXIME KIEMAN
+							</h5>
+							<span class="recomand__adresse-pad">
+								Directeur, Mon agance
+							</span>
+							<span class="recomand__adresse-pad">
+								Téléphone:
+							</span>
+							<span class="recomand__adresse-pad">
+								Email:
+								<a href="https://outlook.live.com/mail/0/inbox?authRedirect=true" target="_blank">
+									name@email.com
+								</a>
+							</span>
+						</div>
+						<div class="recomand__adresse recomand__adresse-marg">
+							<h5 class="recomand__adresse-pad">
+								MAXIME KIEMAN
+							</h5>
+							<span class="recomand__adresse-pad">
+								Directeur, Mon agance
+							</span>
+							<span class="recomand__adresse-pad">
+								Téléphone:
+							</span>
+							<span class="recomand__adresse-pad">
+								Email:
+								<a href="https://outlook.live.com/mail/0/inbox?authRedirect=true" target="_blank">
+									name@email.com
+								</a>
+							</span>
+						</div>
+					</div>	
 			</section>
 		</div>
 	</div>
