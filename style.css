@@ -147,10 +147,6 @@ body{
 	flex-direction: column;
 }
 
-.datelieu--point{
-	padding-right: 47px;
-}
-
 .main__contaner--textul li{
 	padding-bottom: 20px;
 }
@@ -166,8 +162,8 @@ body{
 }
 
 .fa-circle{
+	width: 16px;
 	font-size: 10px;
-	margin-top: 3px;
 }
 
 .recomand{
