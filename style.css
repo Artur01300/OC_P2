@@ -141,8 +141,14 @@ body{
 }
 
 .main__contaner--datelieu{
-	min-width: 120px;
+	min-width: 100px;
 	padding-right: 40px;
+	display: flex;
+	flex-direction: column;
+}
+
+.datelieu--point{
+	padding-right: 47px;
 }
 
 .main__contaner--textul li{
