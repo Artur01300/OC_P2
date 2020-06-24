@@ -163,7 +163,8 @@ body{
 
 .fa-circle{
 	width: 16px;
-	font-size: 10px;
+	font-size: 8px;
+	padding-top: 2px;
 }
 
 .recomand{
