@@ -8,7 +8,7 @@ Début de formation le 23/05/2020 [développeur web](https://openclassrooms.com/
 
 Projet 2 : Transformez votre CV en site Web
 
-###contraintes : 
+### contraintes : 
 
 - Votre site doit être accessible en toutes circonstances, depuis n’importe quel appareil, donc assurez-vous d’avoir un affichage responsive, qui s’adapte à la fois aux    ordinateurs et aux mobiles. 
 - Vous devez réaliser ce projet avec HTML et CSS sans utiliser de framework.
