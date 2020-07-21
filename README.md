@@ -1,8 +1,10 @@
 ![logo](https://user..png)
 
 
-Début formation le 23/05/2020 de [développeur web](https://openclassrooms.com/fr/paths/185-developpeur-web) OpenClassrooms
+
 # OpenClassrooms-Développeur Web
+
+Début de formation le 23/05/2020 [développeur web](https://openclassrooms.com/fr/paths/185-developpeur-web) OpenClassrooms
 
 Web-Projet 2 : Transformez votre CV en site Web
 
