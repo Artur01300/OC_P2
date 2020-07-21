@@ -18,4 +18,3 @@ Web-Projet 2 : Transformez votre CV en site Web
 - Assurer la conformité d'une page web aux standards HTML et CSS
 
 * Lien Projet2: (https://https://www.artur-karapetyan.fr/p2)
-
