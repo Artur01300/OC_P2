@@ -1,4 +1,4 @@
-![logo Orinoco](https://user.oc-static.com/upload/2019/09/04/15675819263013_image1.png)
+![logo Orinoco](https://user..png)
 
 
 Début formation le 01/04/2020 de [développeur web](https://openclassrooms.com/fr/paths/185-developpeur-web) OpenClassrooms
@@ -6,7 +6,7 @@ Début formation le 01/04/2020 de [développeur web](https://openclassrooms.com/
 
 Web-Projet 2 : Transformez votre CV en site Web
 
-# 🔨 Used in this project
+
 
 ## Compétences évaluées :
 
