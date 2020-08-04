@@ -34,4 +34,3 @@ Projet 2 : Transformez votre CV en site Web
 * Lien Projet2:
   https://artur01300.github.io/OC_P2/
   
-  https://www.artur-karapetyan.fr/p2
